@@ -1,16 +1,16 @@
 import React, {Fragment} from 'react';
 import './App.css'
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar/NavBar';
+import Cart from './components/CartWidget/Cart';
+
 
 
  function App() {
   return (
     <Fragment>
     <NavBar/>
-    <div className="App">
-      <h1>TuComponente</h1>
-      <h2>Futuro React Js e-commerce</h2>
-    </div>
+    <Cart />
+    
     </Fragment>
 
   );
