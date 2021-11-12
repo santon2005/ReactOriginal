@@ -1,0 +1,10 @@
+ul{
+    text-align: center;
+}
+
+ul a{
+    justify-content: space-between;
+    padding-right: 20px;
+    list-style: none;
+    text-decoration: none;
+}
