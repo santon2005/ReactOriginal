@@ -1,8 +1,8 @@
 import React from 'react'
 import { Icon } from 'semantic-ui-react'
-import './Cart.css'
+import './CartWidget.css'
 
-const Cart = () => {
+const CartWidget = () => {
     return (
         <div>
             <Icon name='cart arrow down'/>
@@ -10,4 +10,4 @@ const Cart = () => {
     )
 }
 
-export default Cart
+export default CartWidget

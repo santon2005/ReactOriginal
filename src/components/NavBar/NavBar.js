@@ -1,7 +1,11 @@
+import { Fragment } from 'react';
+import CartWidget from '../CartWidget/CartWidget';
 import './NavBar.css'
+
 
 const NavBar = () => {
     return (
+      <Fragment>
       <nav className='container'>
        <ul>
        <a href="#">HOME</a>
@@ -10,6 +14,10 @@ const NavBar = () => {
        <a href="#">CONTACT</a>
         </ul>
         </nav>
+        <CartWidget />
+        </Fragment>
+
+
     );
   }
 

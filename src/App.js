@@ -1,7 +1,8 @@
 import React, {Fragment} from 'react';
 import './App.css'
 import NavBar from './components/NavBar/NavBar';
-import Cart from './components/CartWidget/Cart';
+import ItemListContainer from './components/ItemListCont/ItemListContainer';
+
 
 
 
@@ -9,7 +10,10 @@ import Cart from './components/CartWidget/Cart';
   return (
     <Fragment>
     <NavBar/>
-    <Cart />
+    <ItemListContainer
+    saludo='Hola aca van a estar alojados mis productos de mi E-COMMERCE'
+    
+    />
     
     </Fragment>
 
