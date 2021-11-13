@@ -2,3 +2,9 @@
     text-align: center;
     font-family: sans-serif;
 }
+
+.card-section{
+    display: flex;
+    position: relative;
+    left: 650px;
+}
