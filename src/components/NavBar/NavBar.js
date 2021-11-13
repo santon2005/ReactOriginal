@@ -8,10 +8,10 @@ const NavBar = () => {
       <Fragment>
       <nav className='container'>
        <ul>
-       <a href="#">HOME</a>
-       <a href="#">PRODUCT</a>
-       <a href="#">ABOUT</a>
-       <a href="#">CONTACT</a>
+       <a href="https://www.google.com/">HOME</a>
+       <a href="https://www.google.com/">PRODUCT</a>
+       <a href="https://www.google.com/">ABOUT</a>
+       <a href="https://www.google.com/">CONTACT</a>
         </ul>
         </nav>
         <CartWidget />
