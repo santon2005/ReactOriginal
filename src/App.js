@@ -10,11 +10,7 @@ import ItemListContainer from './components/ItemListCont/ItemListContainer';
   return (
     <Fragment>
     <NavBar/>
-    <ItemListContainer
-    saludo='Hola aca van a estar alojados mis productos de mi E-COMMERCE'
-    
-    />
-    
+    <ItemListContainer/>
     </Fragment>
 
   );
