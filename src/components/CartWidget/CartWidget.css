@@ -1,5 +1,9 @@
 .cart{
     position: relative;
-    left: 950px;
+    left: 0px;
+    right: 0;
+    color: white;
+    left: 350px;
+    top: 20px;
 }
 
