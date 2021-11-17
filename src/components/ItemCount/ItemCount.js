@@ -3,14 +3,18 @@ import React  from 'react'
 const ItemCount = () => {
     const [counter, setCounter] = React.useState(0)
     
+
     const handlerCounterUp = () => {
-        setCounter(counter + 1); 
+        if (counter < 10) {
+            setCounter(counter + 1);
+        }
     };
 
     const handlerCounterDown = () => {
-        setCounter(counter - 1);
+        if (counter > 0) {
+            setCounter(counter - 1);
+        }
     };
-
 
     
 
