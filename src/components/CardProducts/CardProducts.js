@@ -6,7 +6,7 @@ import ItemCount from '../ItemCount/ItemCount'
 const CardProducts = ({Imagen, Nombre, Precio, Descripcion}) => {
     return (
         <div>
- <Card className='hola'>
+ <Card>
     <Image src={Imagen} wrapped ui={false} />
     <Card.Content>
       <Card.Header>{Nombre}</Card.Header>
