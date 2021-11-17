@@ -14,7 +14,7 @@ const NavBar = () => {
        <a href="https://www.google.com/">CONTACT</a>
         </ul>
         </nav>
-        <CartWidget />
+        <CartWidget/>
         </Fragment>
 
 
