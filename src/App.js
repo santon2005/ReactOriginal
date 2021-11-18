@@ -1,8 +1,7 @@
 import React, {Fragment} from 'react';
 import './App.css'
 import NavBar from './components/NavBar/NavBar';
-import ItemListContainer from './components/ItemListCont/ItemListContainer';
-
+import Banner from './components/Banner/Banner'
 
 
 
@@ -10,7 +9,7 @@ import ItemListContainer from './components/ItemListCont/ItemListContainer';
   return (
     <Fragment>
     <NavBar/>
-    <ItemListContainer/>
+    <Banner/>
     </Fragment>
 
   );
