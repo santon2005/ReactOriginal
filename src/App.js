@@ -1,16 +1,13 @@
-import React from 'react';
-import './App.css'
+import React from 'react'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
-
-
-
- function App() {
+const App = () => {
   return (
-   <div className='App'> 
-
-   </div>
-
-  );
+    <div>
+      <ItemListContainer />
+      
+    </div>
+  )
 }
 
-export default App;
+export default App
