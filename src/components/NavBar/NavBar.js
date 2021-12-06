@@ -9,7 +9,7 @@ const NavBar = () => {
       <nav className='Navegacion'>
         <ul className='ul'>
           <Link to="/" className='a'>HOME</Link>
-          <Link to="./Ipad"  className='a'>IPAD</Link>
+          <Link to="/Ipad"  className='a'>IPAD</Link>
           <Link to="/Iphone"  className='a'>IPHONE</Link>
           <Link to="/Mac"  className='a'>MAC</Link>
         </ul>
