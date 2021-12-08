@@ -2,6 +2,7 @@ import React from 'react'
 import { Button, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './CardIphones.css'
+import ItemCount from '../ItemCount/ItemCount';
 
 const CardIphones = ({Imagen, Nombre, Precio}) => {
     return (
@@ -15,6 +16,7 @@ const CardIphones = ({Imagen, Nombre, Precio}) => {
 </Card.Text>
 <Button variant="primary">BUY</Button>
 </Card.Body>
+<ItemCount/>
 </Card>
 </div>
     )

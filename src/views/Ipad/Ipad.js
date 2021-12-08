@@ -11,7 +11,7 @@ const Ipad = () => {
          Nombre='iPad Mini 5'
          Precio='U$ 1700'
          />
-      
+
        <CardIpad 
          Imagen='https://http2.mlstatic.com/D_NQ_NP_711191-MLA47871333065_102021-O.webp'
          Nombre='iPad 9'
