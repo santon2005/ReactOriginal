@@ -1,0 +1,17 @@
+.Cards {
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 100px;
+  }
+  
+ 
+  
+  .Cards-V2{
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 550px;
+    right: 1728px;
+  }
