@@ -1,0 +1,29 @@
+
+
+  .Padre{
+      position: relative;
+      left: 90px;
+      
+  }
+
+  .PadreMayor{
+    background: url(https://i1.wp.com/hipertextual.com/wp-content/uploads/2018/11/iPad-Pro-2018-5.jpg?fit=2500%2C1667&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+  }
+
+  .card-img{
+      height: 380px;
+  }
+
+
+  .Cards-Ipad{
+      display: flex;
+      position: relative;
+      left: 350px;
+      top: 50px;
+      width: 500px;
+      height: 500px;
+  }
+

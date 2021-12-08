@@ -1,0 +1,43 @@
+.Cards {
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 100px;
+  }
+  
+ 
+  
+  .Cards-V2{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 0;
+    left: 100px;
+    top: 50px;
+    bottom: 0;
+  }
+
+  .Padre{
+      position: relative;
+      left: 90px;
+      
+  }
+
+  .Body{
+    background: url(https://vivo247.com/wp-content/uploads/2020/08/iphonese-16082020.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+  }
+
+  .card-img{
+      height: 380px;
+  }
+
+  .card{
+    width: 18rem;
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
