@@ -17,9 +17,9 @@ import Mac from "./views/Mac"
          <NavBar />
        <Routes>
             <Route path="/" element={<Home />}/>
-            <Route path="./Ipad" element={<Ipad />}/>
-            <Route path="./Iphone" element={<Iphone />}/>
-            <Route path="./Mac" element={<Mac />}/>
+            <Route path="/Ipad" element={<Ipad />}/>
+            <Route path="/Iphone" element={<Iphone />}/>
+            <Route path="/Mac" element={<Mac />}/>
        </Routes>
        </div>
     </Router>
