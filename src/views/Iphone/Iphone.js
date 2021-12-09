@@ -58,7 +58,7 @@ const Iphone = () => {
         />
           <CardIphones 
         Imagen='https://http2.mlstatic.com/D_NQ_NP_808427-MLA31182862009_062019-O.webp'
-        Nombre='iPhone XS   '
+        Nombre='iPhone XS Max   '
         Precio='U$ 870'
         />
           <CardIphones 

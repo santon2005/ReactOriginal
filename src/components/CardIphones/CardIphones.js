@@ -5,6 +5,7 @@ import './CardIphones.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ItemCount from '../ItemCount/ItemCount';
+//import ItemDetailContainer from '../ItemDetailContainer/ItemDetailContainer';
 
 const CardIphones = ({Imagen, Nombre, Precio}) => {
     const alertProducts = () => {
@@ -23,6 +24,8 @@ const CardIphones = ({Imagen, Nombre, Precio}) => {
 {Precio}
 </Card.Text>
 <Button variant="primary" onClick={alertProducts}>BUY</Button>
+<br />
+<Button variant="primary">MORE DETAILS</Button>
 </Card.Body>
 <ToastContainer />
 <ItemCount/>
