@@ -7,7 +7,7 @@ const ItemDetailContainer = () => {
     const [items, setItems] = useState([])
     useEffect(() => {
         setTimeout(() => {
-        fetch('')
+        fetch('./productos.json')
         .then(response => response.json())
         .then(respJson => {console.log(respJson); setItems(respJson)})
         .catch(error => console.log('Error: ', error))

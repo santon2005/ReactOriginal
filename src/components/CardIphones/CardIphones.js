@@ -1,11 +1,11 @@
 import React from 'react'
-import { Button, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './CardIphones.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ItemCount from '../ItemCount/ItemCount';
-import itemDetalle from '../../views/ItemDetalle/itemDetalle';
+import { Link } from "react-router-dom";
 
 const CardIphones = ({Imagen, Nombre, Precio}) => {
     const alertProducts = () => {
@@ -23,9 +23,8 @@ const CardIphones = ({Imagen, Nombre, Precio}) => {
 <Card.Text>
 {Precio}
 </Card.Text>
-<Button variant="primary" onClick={alertProducts}>BUY</Button>
+<Link to="/DetalleProducto"  className='a' onClick={alertProducts}>MORE DETAILS</Link>
 <br />
-<Button variant="primary" onClick={itemDetalle}>MORE DETAILS</Button>
 </Card.Body>
 <ToastContainer />
 <ItemCount/>

@@ -1,6 +1,7 @@
 import React from 'react'
 import ItemDetailContainer from '../../components/ItemDetailContainer/ItemDetailContainer'
-const itemDetalle = () => {
+
+const DetalleProducto = () => {
     return (
         <div>
             <ItemDetailContainer />
@@ -8,4 +9,4 @@ const itemDetalle = () => {
     )
 }
 
-export default itemDetalle
+export default DetalleProducto
